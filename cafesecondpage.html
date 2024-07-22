@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAFE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        body {
+            background-color: #ffcccb;
+            font-family: 'Arial', sans-serif;
+            color: #ffcccb;
+            text-align: center;
+            background: url("https://img.freepik.com/premium-photo/cup-coffee-wooden-table-cafe_170984-8718.jpg");
+        }
+        .about{
+            top:px;
+        }
+        .logo {
+            height: 100px;
+            width: 100px;
+            margin: 20px auto;
+            display: block;
+        }
+
+        .cafeitem {
+            background-color: #ecd9d5;
+            border: 1px solid #ddd;
+            padding: 1em;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .cafeitem:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .cafeitem h2 {
+            margin-top: 0;
+            color: #ff6f61;
+        }
+
+        .cafeitem img {
+            width: 80%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .cafeitem p {
+            margin: 0.5em 0;
+            font-size: 1.1em;
+            color: #333;
+        }
+
+        .cafeitem button {
+            background-color: #ff6f61;
+            color: #dcb8b8;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+
+        .cafeitem button:hover {
+            background-color: #e55b4f;
+        }
+
+        .cafeitem button a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .cafeitem button a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="about">𝓘𝓣𝓔𝓜𝓢</h1>
+    <img class="logo rounded-circle" src="cafe logo.png" alt="Logo">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-4 mb-4">
+                <div class="cafeitem">
+                    <h2>Hot Coffee</h2>
+                    <img src="coffee1.webp" alt="Hot Coffee">
+                    <p>Price: Rs 89</p>
+                    <button><a href="#">Pay</a></button>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="cafeitem">
+                    <h2>Cold Coffee</h2>
+                    <img src="cofee2.jpg" alt="Cold Coffee">
+                    <p>Price: Rs 100</p>
+                    <button><a href="#">Pay</a></button>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="cafeitem">
+                    <h2>Veg Sandwich</h2>
+                    <img src="simple sandwitches.jpg" alt="Veg Sandwich">
+                    <p>Price: Rs 100</p>
+                    <button><a href="#">Pay</a></button>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="cafeitem">
+                    <h2>Non-veg Sandwich</h2>
+                    <img src="sandwitch2.jpg" alt="Non-veg Sandwich">
+                    <p>Price: Rs 200</p>
+                    <button><a href="#">Pay</a></button>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="cafeitem">
+                    <h2>Kullad Chai</h2>
+                    <img src="kullad chai.webp" alt="Kullad Chai">
+                    <p>Price: Rs 20</p>
+                    <button><a href="#">Pay</a></button>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="cafeitem">
+                    <h2>Oreo Shake</h2>
+                    <img src="oreo shake.jpg" alt="Oreo Shake">
+                    <p>Price: Rs 150</p>
+                    <button><a href="#">Pay</a></button>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="cafeitem">
+                    <h2>Strawberry Shake</h2>
+                    <img src="Strawberry shake.jpg" alt="Strawberry Shake">
+                    <p>Price: Rs 200</p>
+                    <button><a href="#">Pay</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
